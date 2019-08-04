@@ -318,7 +318,9 @@ export default class Video extends Component {
           style={StyleSheet.absoluteFill}
         />
         {this.state.showPoster && (
-          <Image style={posterStyle} source={{ uri: this.props.poster }} />
+          <View
+            style={{ width: "100%", height: "100%", backgroundColor: "white" }}
+          />
         )}
       </View>
     );
