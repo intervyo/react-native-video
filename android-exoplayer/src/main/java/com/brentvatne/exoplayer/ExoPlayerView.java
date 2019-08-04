@@ -69,7 +69,7 @@ public final class ExoPlayerView extends FrameLayout {
 
         shutterView = new View(getContext());
         shutterView.setLayoutParams(layoutParams);
-        shutterView.setBackgroundColor(ContextCompat.getColor(context, android.R.color.black));
+        shutterView.setBackgroundColor(ContextCompat.getColor(context, android.R.color.white));
 
         subtitleLayout = new SubtitleView(context);
         subtitleLayout.setLayoutParams(layoutParams);
